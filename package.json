@@ -1,0 +1,20 @@
+{
+  "name": "wasm-model-viewer-core",
+  "type": "module",
+  "collaborators": [
+    "jwstamp"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "wasm_model_viewer_core_bg.wasm",
+    "wasm_model_viewer_core.js",
+    "wasm_model_viewer_core_bg.js",
+    "wasm_model_viewer_core.d.ts"
+  ],
+  "main": "wasm_model_viewer_core.js",
+  "types": "wasm_model_viewer_core.d.ts",
+  "sideEffects": [
+    "./wasm_model_viewer_core.js",
+    "./snippets/*"
+  ]
+}
