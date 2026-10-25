@@ -1,0 +1,24 @@
+name: Notify model viewer site
+
+# Tells webgl-full-stack to rebuild its image whenever main changes.
+# SITE_DISPATCH_TOKEN is a fine-grained PAT scoped to
+# stamps9k/webgl-full-stack only, with Contents: read and write.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send repository_dispatch to webgl-full-stack
+        env:
+          GH_TOKEN: ${{ secrets.SITE_DISPATCH_TOKEN }}
+        run: |
+          gh api repos/stamps9k/webgl-full-stack/dispatches \
+            -f event_type=wasm-bin-updated \
+            -f "client_payload[sha]=${{ github.sha }}"
+
