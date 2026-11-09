@@ -544,23 +544,23 @@ export function __wbg_vertexAttribPointer_5fae23082137507b(arg0, arg1, arg2, arg
     arg0.vertexAttribPointer(arg1 >>> 0, arg2, arg3 >>> 0, arg4 !== 0, arg5, arg6);
 }
 export function __wbindgen_cast_0000000000000001(arg0, arg1) {
-    // Cast intrinsic for `Closure(Closure { dtor_idx: 45, function: Function { arguments: [NamedExternref("KeyboardEvent")], shim_idx: 46, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
-    const ret = makeMutClosure(arg0, arg1, wasm.wasm_bindgen__closure__destroy__h0ab8559c3eb8150d, wasm_bindgen__convert__closures_____invoke__h0491e949c9c38526);
+    // Cast intrinsic for `Closure(Closure { dtor_idx: 21, function: Function { arguments: [NamedExternref("KeyboardEvent")], shim_idx: 24, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
+    const ret = makeMutClosure(arg0, arg1, wasm.wasm_bindgen_321680efa3865088___closure__destroy___dyn_core_37ee0ce0c4cd57d5___ops__function__FnMut__web_sys_2eb7170e2a3508bd___features__gen_MouseEvent__MouseEvent____Output_______, wasm_bindgen_321680efa3865088___convert__closures_____invoke___web_sys_2eb7170e2a3508bd___features__gen_MouseEvent__MouseEvent_____);
     return ret;
 }
 export function __wbindgen_cast_0000000000000002(arg0, arg1) {
-    // Cast intrinsic for `Closure(Closure { dtor_idx: 45, function: Function { arguments: [NamedExternref("MouseEvent")], shim_idx: 46, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
-    const ret = makeMutClosure(arg0, arg1, wasm.wasm_bindgen__closure__destroy__h0ab8559c3eb8150d, wasm_bindgen__convert__closures_____invoke__h0491e949c9c38526_1);
+    // Cast intrinsic for `Closure(Closure { dtor_idx: 21, function: Function { arguments: [NamedExternref("MouseEvent")], shim_idx: 24, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
+    const ret = makeMutClosure(arg0, arg1, wasm.wasm_bindgen_321680efa3865088___closure__destroy___dyn_core_37ee0ce0c4cd57d5___ops__function__FnMut__web_sys_2eb7170e2a3508bd___features__gen_MouseEvent__MouseEvent____Output_______, wasm_bindgen_321680efa3865088___convert__closures_____invoke___web_sys_2eb7170e2a3508bd___features__gen_MouseEvent__MouseEvent______1);
     return ret;
 }
 export function __wbindgen_cast_0000000000000003(arg0, arg1) {
-    // Cast intrinsic for `Closure(Closure { dtor_idx: 45, function: Function { arguments: [NamedExternref("WheelEvent")], shim_idx: 46, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
-    const ret = makeMutClosure(arg0, arg1, wasm.wasm_bindgen__closure__destroy__h0ab8559c3eb8150d, wasm_bindgen__convert__closures_____invoke__h0491e949c9c38526_2);
+    // Cast intrinsic for `Closure(Closure { dtor_idx: 21, function: Function { arguments: [NamedExternref("WheelEvent")], shim_idx: 24, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
+    const ret = makeMutClosure(arg0, arg1, wasm.wasm_bindgen_321680efa3865088___closure__destroy___dyn_core_37ee0ce0c4cd57d5___ops__function__FnMut__web_sys_2eb7170e2a3508bd___features__gen_MouseEvent__MouseEvent____Output_______, wasm_bindgen_321680efa3865088___convert__closures_____invoke___web_sys_2eb7170e2a3508bd___features__gen_MouseEvent__MouseEvent______2);
     return ret;
 }
 export function __wbindgen_cast_0000000000000004(arg0, arg1) {
-    // Cast intrinsic for `Closure(Closure { dtor_idx: 45, function: Function { arguments: [], shim_idx: 49, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
-    const ret = makeMutClosure(arg0, arg1, wasm.wasm_bindgen__closure__destroy__h0ab8559c3eb8150d, wasm_bindgen__convert__closures_____invoke__hebceca95bb890b47);
+    // Cast intrinsic for `Closure(Closure { dtor_idx: 21, function: Function { arguments: [], shim_idx: 22, ret: Unit, inner_ret: Some(Unit) }, mutable: true }) -> Externref`.
+    const ret = makeMutClosure(arg0, arg1, wasm.wasm_bindgen_321680efa3865088___closure__destroy___dyn_core_37ee0ce0c4cd57d5___ops__function__FnMut__web_sys_2eb7170e2a3508bd___features__gen_MouseEvent__MouseEvent____Output_______, wasm_bindgen_321680efa3865088___convert__closures_____invoke______);
     return ret;
 }
 export function __wbindgen_cast_0000000000000005(arg0) {
@@ -592,20 +592,20 @@ export function __wbindgen_init_externref_table() {
     table.set(offset + 2, true);
     table.set(offset + 3, false);
 }
-function wasm_bindgen__convert__closures_____invoke__hebceca95bb890b47(arg0, arg1) {
-    wasm.wasm_bindgen__convert__closures_____invoke__hebceca95bb890b47(arg0, arg1);
+function wasm_bindgen_321680efa3865088___convert__closures_____invoke______(arg0, arg1) {
+    wasm.wasm_bindgen_321680efa3865088___convert__closures_____invoke______(arg0, arg1);
 }
 
-function wasm_bindgen__convert__closures_____invoke__h0491e949c9c38526(arg0, arg1, arg2) {
-    wasm.wasm_bindgen__convert__closures_____invoke__h0491e949c9c38526(arg0, arg1, arg2);
+function wasm_bindgen_321680efa3865088___convert__closures_____invoke___web_sys_2eb7170e2a3508bd___features__gen_MouseEvent__MouseEvent_____(arg0, arg1, arg2) {
+    wasm.wasm_bindgen_321680efa3865088___convert__closures_____invoke___web_sys_2eb7170e2a3508bd___features__gen_MouseEvent__MouseEvent_____(arg0, arg1, arg2);
 }
 
-function wasm_bindgen__convert__closures_____invoke__h0491e949c9c38526_1(arg0, arg1, arg2) {
-    wasm.wasm_bindgen__convert__closures_____invoke__h0491e949c9c38526_1(arg0, arg1, arg2);
+function wasm_bindgen_321680efa3865088___convert__closures_____invoke___web_sys_2eb7170e2a3508bd___features__gen_MouseEvent__MouseEvent______1(arg0, arg1, arg2) {
+    wasm.wasm_bindgen_321680efa3865088___convert__closures_____invoke___web_sys_2eb7170e2a3508bd___features__gen_MouseEvent__MouseEvent______1(arg0, arg1, arg2);
 }
 
-function wasm_bindgen__convert__closures_____invoke__h0491e949c9c38526_2(arg0, arg1, arg2) {
-    wasm.wasm_bindgen__convert__closures_____invoke__h0491e949c9c38526_2(arg0, arg1, arg2);
+function wasm_bindgen_321680efa3865088___convert__closures_____invoke___web_sys_2eb7170e2a3508bd___features__gen_MouseEvent__MouseEvent______2(arg0, arg1, arg2) {
+    wasm.wasm_bindgen_321680efa3865088___convert__closures_____invoke___web_sys_2eb7170e2a3508bd___features__gen_MouseEvent__MouseEvent______2(arg0, arg1, arg2);
 }
 
 const EngineWebGl2Finalization = (typeof FinalizationRegistry === 'undefined')

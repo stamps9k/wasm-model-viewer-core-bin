@@ -1,6 +1,8 @@
 /* tslint:disable */
 /* eslint-disable */
 export const memory: WebAssembly.Memory;
+export const rust_log: (a: number, b: number, c: number, d: number) => void;
+export const set_fps: (a: number) => void;
 export const __wbg_webgl2frame_free: (a: number, b: number) => void;
 export const webgl2frame_new: (a: any) => [number, number, number];
 export const webgl2frame_set_projection: (a: number) => void;
@@ -20,13 +22,11 @@ export const enable_zoom_out: () => void;
 export const __wbg_enginewebgl2_free: (a: number, b: number) => void;
 export const enginewebgl2_new: (a: any) => [number, number, number];
 export const enginewebgl2_update_scene: (a: number, b: any) => [number, number];
-export const rust_log: (a: number, b: number, c: number, d: number) => void;
-export const set_fps: (a: number) => void;
-export const wasm_bindgen__closure__destroy__h0ab8559c3eb8150d: (a: number, b: number) => void;
-export const wasm_bindgen__convert__closures_____invoke__h0491e949c9c38526: (a: number, b: number, c: any) => void;
-export const wasm_bindgen__convert__closures_____invoke__h0491e949c9c38526_1: (a: number, b: number, c: any) => void;
-export const wasm_bindgen__convert__closures_____invoke__h0491e949c9c38526_2: (a: number, b: number, c: any) => void;
-export const wasm_bindgen__convert__closures_____invoke__hebceca95bb890b47: (a: number, b: number) => void;
+export const wasm_bindgen_321680efa3865088___closure__destroy___dyn_core_37ee0ce0c4cd57d5___ops__function__FnMut__web_sys_2eb7170e2a3508bd___features__gen_MouseEvent__MouseEvent____Output_______: (a: number, b: number) => void;
+export const wasm_bindgen_321680efa3865088___convert__closures_____invoke___web_sys_2eb7170e2a3508bd___features__gen_MouseEvent__MouseEvent_____: (a: number, b: number, c: any) => void;
+export const wasm_bindgen_321680efa3865088___convert__closures_____invoke___web_sys_2eb7170e2a3508bd___features__gen_MouseEvent__MouseEvent______1: (a: number, b: number, c: any) => void;
+export const wasm_bindgen_321680efa3865088___convert__closures_____invoke___web_sys_2eb7170e2a3508bd___features__gen_MouseEvent__MouseEvent______2: (a: number, b: number, c: any) => void;
+export const wasm_bindgen_321680efa3865088___convert__closures_____invoke______: (a: number, b: number) => void;
 export const __wbindgen_malloc: (a: number, b: number) => number;
 export const __wbindgen_realloc: (a: number, b: number, c: number, d: number) => number;
 export const __wbindgen_exn_store: (a: number) => void;
