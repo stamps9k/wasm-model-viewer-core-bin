@@ -1,13 +1,16 @@
 /* tslint:disable */
 /* eslint-disable */
 export const memory: WebAssembly.Memory;
-export const rust_log: (a: number, b: number, c: number, d: number) => void;
-export const set_fps: (a: number) => void;
 export const __wbg_webgl2frame_free: (a: number, b: number) => void;
 export const webgl2frame_new: (a: any) => [number, number, number];
 export const webgl2frame_set_projection: (a: number) => void;
 export const webgl2frame_update_scene: (a: number, b: any) => [number, number];
+export const __wbg_enginewebgl2_free: (a: number, b: number) => void;
+export const enginewebgl2_new: (a: any) => [number, number, number];
+export const enginewebgl2_update_scene: (a: number, b: any) => [number, number];
 export const initialize_web_gl: (a: any) => [number, number, number];
+export const rust_log: (a: number, b: number, c: number, d: number) => void;
+export const set_fps: (a: number) => void;
 export const update_scene: (a: number, b: any) => [number, number, number];
 export const disable_rotate_x: () => void;
 export const disable_rotate_y: () => void;
@@ -19,9 +22,6 @@ export const enable_rotate_y: () => void;
 export const enable_rotate_z: () => void;
 export const enable_zoom_in: () => void;
 export const enable_zoom_out: () => void;
-export const __wbg_enginewebgl2_free: (a: number, b: number) => void;
-export const enginewebgl2_new: (a: any) => [number, number, number];
-export const enginewebgl2_update_scene: (a: number, b: any) => [number, number];
 export const wasm_bindgen_321680efa3865088___closure__destroy___dyn_core_37ee0ce0c4cd57d5___ops__function__FnMut__web_sys_2eb7170e2a3508bd___features__gen_MouseEvent__MouseEvent____Output_______: (a: number, b: number) => void;
 export const wasm_bindgen_321680efa3865088___convert__closures_____invoke___web_sys_2eb7170e2a3508bd___features__gen_MouseEvent__MouseEvent_____: (a: number, b: number, c: any) => void;
 export const wasm_bindgen_321680efa3865088___convert__closures_____invoke___web_sys_2eb7170e2a3508bd___features__gen_MouseEvent__MouseEvent______1: (a: number, b: number, c: any) => void;
